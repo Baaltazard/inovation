@@ -3,151 +3,165 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Puskesmas Trenggalek</title>
+    <title>Bootstrap demo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <style>
+      .banner-image {
+        background-image: url(assets/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* filter: blur(5px); */
+      }
+      .card {
+        transition: all 0.4s;
+        cursor: pointer;
+      }
+      .card:hover {
+        transform: scale(1.12);
+      }
+    </style>
   </head>
   <body>
-    <!-- SECTION HEAD -->
-    <!-- section-header -->
-    <nav class="navbar bg-light shadow fixed-top">
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-light p-md-3 shadow">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="logo1.png" alt="Bootstrap" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="pkm.png" alt="Bootstrap" width="100" height="80" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="berakhlak.png" alt="Bootstrap" width="120" height="80" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="bangga.png" alt="Bootstrap" width="100" height="70" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="germas.png" alt="Bootstrap" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="meroket.png" alt="Bootstrap" width="100" height="80" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="tgx.png" alt="Bootstrap" width="50" height="80" />
-        </a>
+        <a class="navbar-brand" href="#">Puskesmas Trenggalek</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Ekin 2024</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link " href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Contact</a>
+            </li> -->
+          </ul>
+        </div>
       </div>
     </nav>
-    <!-- <div class="container mt-4">
-      <div class="card shadow rounded-pill fixed">
-        <div class="card-body">
-          <div class="container px-4 text-center">
-            <div class="row">
-              <div class="col">
-                <img src="logo1.png" alt="" width="50" />
+
+    <!-- Banner Image  -->
+    <h1 class="text-white">sadsadsadsadas</h1>
+    <br /><br />
+    <div class="container mt-4">
+      <div class="content text-center">
+        <div class="row">
+          <h2 class="">INOVASI PUSKESMAS TRENGGALEK</h2>
+          <hr />
+          <div class="col mt-2">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="assets/gelas.png" alt="" />
+                </div>
+                <p class="card-text">GELAS MEMPESONA HATI</p>
+
+                <small
+                  >Gerakan Lansia Sehat Mewujudkan Masyarakat Peduli Persoalan
+                  Kesehatan Dihari Tua nanti.</small
+                ><br /><br />
+                <a
+                  href="https://drive.google.com/drive/folders/1XvMPK9IjQu4jWJF-YkwaSsWV7HbUS9N9?usp=sharing"
+                  target="_blank"
+                  class="btn btn-success shadow"
+                  >View Document</a
+                >
               </div>
-              <div class="col">
-                <img src="pkm.png" alt="" width="80" />
+            </div>
+          </div>
+          <div class="col mt-2">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="assets/lansia.png " alt="" />
+                </div>
+                <p class="card-text">KENEK BERAKSI</p>
+                <small>Kakek Nenek Bersama Awasi Kesehatan Generasi.</small
+                ><br /><br />
+                <a
+                  href="https://drive.google.com/drive/folders/1C35CTB-g5HRZcipVyhdbQPecxCPvyWBu?usp=sharing"
+                  target="_blank"
+                  class="btn btn-success shadow"
+                  >View Document</a
+                >
               </div>
-              <div class="col">
-                <img src="berakhlak.png" alt="" width="120" />
+            </div>
+          </div>
+          <div class="col mt-2">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="assets/catin.png " alt="" style="width: 29%" />
+                </div>
+                <p class="card-text">CATIN MAKAN TAFE</p>
+                <small
+                  >Calon Pengantin Mendapatkan Pendampingan dan Tablet
+                  FE.</small
+                ><br /><br />
+                <a
+                  href="https://drive.google.com/drive/folders/1-Y4m4UqSLDENDiSCERi-D3tpT15DSzvw?usp=sharing"
+                  target="_blank"
+                  class="btn btn-success shadow"
+                  >View Document</a
+                >
               </div>
-              <div class="col">
-                <img src="bangga.png" alt="" width="120" />
-              </div>
-              <div class="col">
-                <img src="germas.png" alt="" width="120" />
-              </div>
-              <div class="col">
-                <img src="meroket.png" alt="" width="60" />
-              </div>
-              <div class="col">
-                <img src="tgx.png" alt="" width="30" />
+            </div>
+          </div>
+          <div class="col mt-2">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="assets/simami.png " alt="" />
+                </div>
+                <p class="card-text">SIMAMI CARLA</p>
+                <small
+                  >Lansia Mandiri Melalui Caregiver Keluarga Terlatih..</small
+                ><br /><br />
+                <a
+                  href="https://drive.google.com/drive/folders/1GmRJCRy43wYAGzoo03CEbKtfMRngplRS?usp=sharing"
+                  target="_blank"
+                  class="btn btn-success shadow"
+                  >View Document</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
-    <!-- end section -->
-    <div class="container text-center mt-2">
-      <br />
-      <br /><br /><br />
-      <br /><br />
-      <h1 class="text-white mt-4">sadasdasdasdasdsad</h1>
-      <h1 class="text-white mt-4">sadasdasdasdasdsad</h1>
-      <h2>INOVASI PUSKESMAS TRENGGALEK</h2>
-      <hr />
     </div>
-    <!-- menu card -->
-
-    <div class="container px-4 text-center">
-      <div class="row">
-        <div class="col-md-3 mt-2">
-          <div class="card shadow" style="width: 15rem">
-            <br />
-            <img src="gelas.png" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title text-center">GELAS MEMPESONA HATI</h5>
-              <hr />
-              <p class="card-text">
-                Gerakan Lansia Sehat Mewujudkan Masyarakat Peduli Persoalan
-                Kesehatan Dihari Tua nanti.
-              </p>
-              <a href="https://drive.google.com/drive/folders/1XvMPK9IjQu4jWJF-YkwaSsWV7HbUS9N9?usp=sharing"target="_blank" class="btn btn-primary">View Document</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mt-2">
-          <div class="card shadow" style="width: 15rem">
-            <br />
-            <img src="lansia.png" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title text-center">KENEK BERAKSI</h5>
-              <hr />
-              <p class="card-text">
-                Kakek Nenek Bersama Awasi Kesehatan Generasi.
-              </p>
-              <a href="https://drive.google.com/drive/folders/1C35CTB-g5HRZcipVyhdbQPecxCPvyWBu?usp=sharing"target="_blank" class="btn btn-primary">View Document</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mt-2">
-          <div class="card shadow" style="width: 12rem">
-            <br />
-            <img src="catin.png" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title text-center">CATIN MAKAN TAFE</h5>
-              <hr />
-              <p class="card-text">
-                Calon Pengantin Mendapatkan Pendampingan dan Tablet FE.
-              </p>
-              <a href="https://drive.google.com/drive/folders/1-Y4m4UqSLDENDiSCERi-D3tpT15DSzvw?usp=sharing" target="_blank"class="btn btn-primary">View Document</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mt-2">
-          <div class="card shadow" style="width: 12rem">
-            <br />
-            <img src="simami.png" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title text-center">SIMAMI CARLA</h5>
-              <hr />
-              <p class="card-text">
-                Lansia Mandiri Melalui Caregiver Keluarga Terlatih.
-              </p>
-              <a href="https://drive.google.com/drive/folders/1GmRJCRy43wYAGzoo03CEbKtfMRngplRS?usp=sharing"  target="_blank"class="btn btn-primary">View Document</a>
-            </div>
-          </div>
-        </div>
+    <!-- end of inovation -->
+    <div class="container my-5 d-grid gap-5 shadow">
+      <div class="text-center">
+        <img src="assets/as.png" alt="" />
       </div>
     </div>
 
-    <!-- end card -->
-    <!-- section about -->
-
-    <!-- end section about -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
